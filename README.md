@@ -1,3 +1,5 @@
-# Hi, This is Haloshrimp's personal Blog!!!
+# Hi, This is Haloshrimp's personal website!!!
+## And.. powered by GITHUB!!!!! <3
 
-Nothing here now...
+
+But nothing here now...
