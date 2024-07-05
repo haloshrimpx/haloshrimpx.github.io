@@ -1,0 +1,3 @@
+# Hi, This is Haloshrimp's personal Blog!!!
+
+Nothing here now...
