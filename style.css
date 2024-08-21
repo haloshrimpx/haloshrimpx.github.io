@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.content {
+    height: 4000px;
+    background-color: #06001a;
+}
+
+.nav {
+    background-image: linear-gradient(108deg, #26378f 0%, #007396 70%);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 60px;
+}
+
+.nav h1 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.nav a {
+    text-decoration-line: none;
+    display: inline-block;
+}
+
+/* .links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+} */
+
+.nav ul {
+    top: 0;
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    align-items: center;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav img {
+    margin: 5px auto;
+    display: block;
+    height: 50px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.welcome {
+    padding: 200px 0 100px 0;
+    background-color: #4867ec;
+    background-image: linear-gradient(180deg, #4867ec 0%, #06001a 94%);
+    text-align: left center;
+}
+
+.welcome h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    /* -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    margin-left: 50px;
+}
+
+.articles {
+    height: 700px;
+    text-align: center;
+    position: relative;
+}
+
+/* ARTICLES 标题 */
+.articles h1 {
+    display: inline-block;
+    /* margin: auto 300px; */
+    margin-top: 100px;
+
+    padding: 20px 40px;
+    background-color: #181f8550;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+
+    border: rgb(94, 183, 255) 2px solid;
+    border-radius: 50px;
+}
+
+.articles a {
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration-line: none;
+    color: rgb(167, 255, 240);
+}
+
+.articles p {
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(230, 235, 255);
+    margin: 20px auto;
+    text-align: justify;
+}
+
+.article_test {
+    margin: 100px 100px;
+    padding: 20px 50px 20px 50px;
+    text-align: left;
+    background-image: linear-gradient(160deg, #0094e936 0%, #80d0c742 100%);
+    border: #45bbff 2px solid;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #00054e;
+    background-image: linear-gradient(160deg, #00054e 0%, #00929e 99%, #8BC6EC 100%);
+    height: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.footer p {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(230, 235, 255);
+    margin: 0 auto;
+    line-height: 100px;
+    display: inline-block;
+}
